@@ -15,10 +15,6 @@ dd {
   font-weight: bold;
 }
 
-h1 {
-  font-weight: bold;
-}
-
 button {
   background-color: black;
   border-radius: 5px;
@@ -40,4 +36,18 @@ button:focus {
 
 .p-1 {
   padding: 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+input {
+  display: block;
+  margin: 5px;
 }
