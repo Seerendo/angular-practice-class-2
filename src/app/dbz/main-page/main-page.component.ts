@@ -18,17 +18,7 @@ export class MainPageComponent {
   ];
 
   nuevo: Personaje = {
-    nombre: '',
-    poder: 0,
+    nombre: 'Trunks',
+    poder: 6000,
   };
-
-  agregar() {
-    if (this.nuevo.nombre.trim().length == 0) {
-      return;
-    }
-    //event.preventDefault(); Previene que se recargue la página al disparar el evento (Declarar el event: any en los parámetros de la función)
-    console.log('Agregar');
-    this.personajes.push(this.nuevo);
-    this.nuevo = { nombre: '', poder: 0 };
-  }
 }
